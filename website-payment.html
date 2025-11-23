@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MARKET & PAYMENT FEBB</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      margin: 0;
+      padding: 30px 15px;
+      font-family: 'Share Tech Mono', monospace;
+      background: #000;
+      color: #00ff99;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      background-image: linear-gradient(to bottom, #000000, #001a00);
+      animation: matrixScroll 30s linear infinite;
+    }
+
+    @keyframes matrixScroll {
+      from { background-position: 0 0; }
+      to { background-position: 0 1000px; }
+    }
+
+    h1 {
+      color: #00ffcc;
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .thumbnail {
+      width: 160px;
+      height: 160px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ff99;
+      margin: 20px 0;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+      max-width: 350px;
+      margin-bottom: 40px;
+    }
+
+    .product-card {
+      background: rgba(0, 30, 0, 0.6);
+      border: 1px solid #00ff99;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 0 15px #004d26;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .product-card:hover {
+      background: rgba(0, 50, 0, 0.7);
+      transform: scale(1.03);
+    }
+
+    .product-title {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #00ffcc;
+    }
+
+    .price {
+      font-size: 0.95em;
+      margin: 6px 0;
+      color: #66ffcc;
+    }
+
+    .product-detail {
+      display: none;
+      margin-top: 8px;
+      font-size: 0.85em;
+      color: #99ffcc;
+      white-space: pre-line;
+    }
+
+    button {
+      background-color: #00ff99;
+      color: black;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-family: inherit;
+      box-shadow: 0 0 10px #00ff99;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    hr {
+      width: 80%;
+      border: none;
+      height: 1px;
+      background-color: #004400;
+      margin: 30px 0;
+    }
+
+    .note {
+      color: #ccc;
+      font-size: 0.9em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> Febb Payment </h1>
+  <img src="https://files.catbox.moe/y8d3ec.jpeg" class="thumbnail" />
+
+  <!-- QRIS & DUKUNGAN -->
+  <div class="section">
+    <button onclick="window.open(https://files.catbox.moe/brnw29.png', '_blank')">QRIS (Minta Ama Admin)</button>
+    <button onclick="event.preventDefault()">DANA: 085788301959</button>
+    <button onclick="event.preventDefault()">GOPAY: 082281355857</button>
+    <button onclick="event.preventDefault()">OVO: 082281355857</button>
+    <button onclick="event.preventDefault()">SEABANK: 901778682500</button>
+   </div>
+  <div class="note">Atas Nama: <strong>MU***L**</strong></div>
+
+  <hr />
+
+  <!-- Produk Section -->
+  <div class="section">
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Partner Basic</div>
+      <div class="price">Rp15.000 </div>
+      <div class="product-detail">
+Benefit:
+- Get Function Dan Base Bug Kece
+- Get No Enc Script Aphophis
+- Get Script Jasher No Enc
+- Get Partner Script Astrax Death
+- Get Partner Script Eternal Shadow
+- Get Partner Script Astrax Death
+- Get Reseller Script Spiderman Trasher
+- Get Reseller Apps Bug X-Phantom
+- Get Reseller Script Oktagram
+- Get Base Baldwin 
+- Get Base Indictive 
+- Get Tutor Pasang Funct
+- Get All Html
+      </div>
+    </div>
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Partner Prib </div>
+      <div class="price">Rp30.000</div>
+      <div class="product-detail">
+Benefit:
+- Get Partner Function 
+- Get No enc Script Astrax Death + Funct
+- Get No Enc Script Jasher
+- Get Link Grub Partner Febb
+- Get Tools Anti Bypass
+- Get No Enc Indictive
+- Get Script Ubot 
+- Get Base Baldwin
+- Get Base Tredic
+- Get Base Astrax
+- Get All Base Dari Gw
+- Get Reseller Panel
+- Get Mods Script Astrax Death
+- Get Mods Script Eternal Shadow
+- Get Reseller Script Atlantic Blood
+- Get Reseller Script Volcanic
+- Get Reseller Script Spiderman
+- Get Reseller Script Vortex
+- Get Reseller Script Noroi
+- Get Reseller Script God Of War
+- Get All tools Dari gw
+- Get Sc Apophis Free Up
+- Get Script Otaxx No Up
+- Get Sc Venomic Full Up
+      </div>
+    </div>
+    
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Tangan Kanan Prib</div>
+      <div class="price">Rp50.000</div>
+      <div class="product-detail">
+Benefit:
+- Get Owner Function 
+- Get No enc Script Astrax Death + Funct
+- Get No Enc Script Jasher
+- Get Link Grub Partner Febb
+- Get Tools Anti Bypass
+- Get Script Anti Bypass
+- Get Base Apk Bug
+- Get Apk Bug Full Up
+- Get No Enc Indictive
+- Get Script Ubot 
+- Get Base Baldwin
+- Get Base Tredic
+- Get Base Astrax
+- Get All Base Dari Gw
+- Get Partner Panel Private
+- Get Ceo Script Astrax Death
+- Get Ceo Script Eternal Shadow
+- Get Partner Script Atlantic Blood
+- Get Partner Script Noroi
+- Get Partner Script Vortex
+- Get Partner Script God Of War
+- Get Reseller Script Volcanic
+- Get Reseller Oblivion Storm
+- Get Reseller X-Zombie 
+- Get Reseller Napolo Vloods
+- Get Reseller Vanila Invictus
+- Get Reseller Script Spiderman
+- Get Reseller Script XeroVang
+- Get All tools Dari gw
+- Get Sc Tredict Full Up
+- Get Sc Apophis Full Up
+- Get Matrix Void Full Up
+- Get Apk Bug X-Vortex
+- Get Script Otaxx No Up
+- Get Sc Venomic Full Up
+      </div>
+    </div>
+    
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Owner Pribadi</div>
+      <div class="price">Rp80.000</div>
+      <div class="product-detail">
+Benefit:
+- Get Ceo Function 
+- Get No enc Script Astrax Death + Funct
+- Get All Materi Pasang Funct + Buat script
+- Get Project Script Bareng
+- Get Apk Bug God Of War Full Up
+- Get Update Benefit Setiap Hari
+- Get No Enc Script Jasher
+- Get Link Grub Partner Febb
+- Get Tools Anti Bypass
+- Get Script Anti Bypass
+- Get Base Apk Bug
+- Get No Enc Indictive
+- Get Script Ubot No Enc
+- Get Base Baldwin
+- Get Base Tredic
+- Get Base Astrax
+- Get All Base Dari Gw
+- Get Partner Panel Private
+- Get Owner Script Astrax Death
+- Get Owner Apps Bug Eternal Shadow
+- Get Partner Script Atlantic Blood
+- Get Partner Script Noroi
+- Get Partner Script Vortex
+- Get Partner Atlantic Blood
+- Get Partner Script God Of War
+- Get Reseller Matrix Void
+- Get Reseller Script Volcanic
+- Get Reseller Oblivion Storm
+- Get Reseller Ashbrone Legacy
+- Get Reseller X-Zombie
+- Get Reseller Oktagram
+- Get Reseller Tredict Invictus
+- Get Reseller Three Brother
+- Get Reseller Napolo Vloods
+- Get Reseller Vanila Invictus
+- Get Reseller Script Spiderman
+- Get Reseller Script XeroVang
+- Get Reseller Crow 
+- Get Reseller Assasin 
+- Get Reseller Cyber Invictus
+- Get Reseller Void Engine
+- Get Reseller ThunXCrash
+- Get Resellee Deathlest
+- Get Reseller Zorro Crash
+- Get All tools Dari gw
+- Get Sc Tredict Full Up
+- Get Sc Apophis Full Up
+- Get Matrix Void Full Up
+- Get Apk Bug X-Vortex
+- Get Script Otaxx No Up
+- Get Sc Venomic Full Up
+      </div>
+    </div>
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Script Tredic Invictus</div>
+      <div class="price">Script Terlaris</div>
+      <div class="product-detail">
+Full Update : Rp100.000
+Reseller : Rp120.000
+Partner : Rp160.000
+Moderator : Rp180.000
+CeoDealer : Rp200.000
+      </div>
+    </div>
+    
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Apps Tredic Invictus</div>
+      <div class="price">Price Apps ⬇</div>
+      <div class="product-detail">
+Acces 1 Bulan : Rp50.000
+Acces Permanent : Rp120.000
+Reseller : Rp150.000
+Partner : Rp180.000
+Moderator : Rp220.000
+      </div>
+    </div>
+    
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Script Astrax Death</div>
+      <div class="price">Price Script ⬇</div>
+      <div class="product-detail">
+Full Update : Rp20.000
+Reseller : Rp40.000
+Partner : Rp70.000
+Moderator : Rp100.000
+Creator : Rp130.00
+Owner : Rp150.000
+      </div>
+    </div>
+    
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Apps Bug Eternal</div>
+      <div class="price">Price Apps ⬇</div>
+      <div class="product-detail">
+Permanent Acces : Rp20.000
+Reseller : Rp50.000
+Partner : Rp70.000
+Moderator : Rp90.000
+Creator : Rp120.000
+Owner : Rp150.000
+      </div>
+    </div>
+    
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Apps Bug God Of War</div>
+      <div class="price">Price Apps ⬇</div>
+      <div class="product-detail">
+Acces 1 Bulan : Rp40.000
+Acces Permanent : Rp80.000
+Reseller : Rp130.000
+Partner : Rp150.000
+Moderator : Rp170.000
+      </div>
+    </div>
+    
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Partner Function</div>
+      <div class="price">Rp30.000</div>
+      <div class="product-detail">
+Get New Update Funct Invis
+Get New Update Funct Delay
+Get New Update Funct ForClose
+Get New Update Funct BlankUi
+Get New Update Funct FreezeUi
+Get New Update Funct Protocol
+Get New Update Funct ApiNew
+Dll.
+      </div>
+    </div>
+
+    <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Anti Bypass Tools Code</div>
+      <div class="price">Rp30.000</div>
+      <div class="product-detail">
+Tools Anti Bypass Dan Keamanan Script.
+Cocok Untuk Protection Dari Bypass
+      </div>
+    </div>
+   
+   <div class="product-card" onclick="toggleDetail(this)">
+      <div class="product-title">Tools Database</div>
+      <div class="price">Rp20.000</div>
+      <div class="product-detail">
+Keamanan Untuk Menjaga Script Agar Tidak Di Acces Sembarangan.
+      </div>
+    </div>
+   
+  <script>
+    function toggleDetail(card) {
+      const detail = card.querySelector('.product-detail');
+      detail.style.display = detail.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
+</body>
+</html>
